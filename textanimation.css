@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  height: 100%;
+  background-color: #7c7b7b;
+}
+.word {
+  margin: auto;
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 50px;
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
